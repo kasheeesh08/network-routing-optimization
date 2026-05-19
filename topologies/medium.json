@@ -1,0 +1,1235 @@
+{
+  "nodes": [
+    {
+      "id": "R1",
+      "type": "core"
+    },
+    {
+      "id": "R2",
+      "type": "core"
+    },
+    {
+      "id": "R3",
+      "type": "core"
+    },
+    {
+      "id": "R4",
+      "type": "core"
+    },
+    {
+      "id": "R5",
+      "type": "core"
+    },
+    {
+      "id": "R6",
+      "type": "distribution"
+    },
+    {
+      "id": "R7",
+      "type": "distribution"
+    },
+    {
+      "id": "R8",
+      "type": "distribution"
+    },
+    {
+      "id": "R9",
+      "type": "distribution"
+    },
+    {
+      "id": "R10",
+      "type": "distribution"
+    },
+    {
+      "id": "R11",
+      "type": "distribution"
+    },
+    {
+      "id": "R12",
+      "type": "distribution"
+    },
+    {
+      "id": "R13",
+      "type": "distribution"
+    },
+    {
+      "id": "R14",
+      "type": "distribution"
+    },
+    {
+      "id": "R15",
+      "type": "distribution"
+    },
+    {
+      "id": "R16",
+      "type": "distribution"
+    },
+    {
+      "id": "R17",
+      "type": "distribution"
+    },
+    {
+      "id": "R18",
+      "type": "distribution"
+    },
+    {
+      "id": "R19",
+      "type": "distribution"
+    },
+    {
+      "id": "R20",
+      "type": "distribution"
+    },
+    {
+      "id": "R21",
+      "type": "edge"
+    },
+    {
+      "id": "R22",
+      "type": "edge"
+    },
+    {
+      "id": "R23",
+      "type": "edge"
+    },
+    {
+      "id": "R24",
+      "type": "edge"
+    },
+    {
+      "id": "R25",
+      "type": "edge"
+    },
+    {
+      "id": "R26",
+      "type": "edge"
+    },
+    {
+      "id": "R27",
+      "type": "edge"
+    },
+    {
+      "id": "R28",
+      "type": "edge"
+    },
+    {
+      "id": "R29",
+      "type": "edge"
+    },
+    {
+      "id": "R30",
+      "type": "edge"
+    },
+    {
+      "id": "R31",
+      "type": "edge"
+    },
+    {
+      "id": "R32",
+      "type": "edge"
+    },
+    {
+      "id": "R33",
+      "type": "edge"
+    },
+    {
+      "id": "R34",
+      "type": "edge"
+    },
+    {
+      "id": "R35",
+      "type": "edge"
+    },
+    {
+      "id": "R36",
+      "type": "edge"
+    },
+    {
+      "id": "R37",
+      "type": "edge"
+    },
+    {
+      "id": "R38",
+      "type": "edge"
+    },
+    {
+      "id": "R39",
+      "type": "edge"
+    },
+    {
+      "id": "R40",
+      "type": "edge"
+    },
+    {
+      "id": "R41",
+      "type": "edge"
+    },
+    {
+      "id": "R42",
+      "type": "edge"
+    },
+    {
+      "id": "R43",
+      "type": "edge"
+    },
+    {
+      "id": "R44",
+      "type": "edge"
+    },
+    {
+      "id": "R45",
+      "type": "edge"
+    },
+    {
+      "id": "R46",
+      "type": "edge"
+    },
+    {
+      "id": "R47",
+      "type": "edge"
+    },
+    {
+      "id": "R48",
+      "type": "edge"
+    },
+    {
+      "id": "R49",
+      "type": "edge"
+    },
+    {
+      "id": "R50",
+      "type": "edge"
+    }
+  ],
+  "edges": [
+    {
+      "source": "R1",
+      "target": "R5",
+      "latency": 36,
+      "bandwidth": 50,
+      "packet_loss": 0.008
+    },
+    {
+      "source": "R1",
+      "target": "R19",
+      "latency": 11,
+      "bandwidth": 100,
+      "packet_loss": 0.011
+    },
+    {
+      "source": "R1",
+      "target": "R50",
+      "latency": 33,
+      "bandwidth": 200,
+      "packet_loss": 0.0024
+    },
+    {
+      "source": "R1",
+      "target": "R17",
+      "latency": 32,
+      "bandwidth": 1000,
+      "packet_loss": 0.014
+    },
+    {
+      "source": "R2",
+      "target": "R3",
+      "latency": 42,
+      "bandwidth": 50,
+      "packet_loss": 0.0155
+    },
+    {
+      "source": "R2",
+      "target": "R22",
+      "latency": 47,
+      "bandwidth": 100,
+      "packet_loss": 0.0073
+    },
+    {
+      "source": "R3",
+      "target": "R37",
+      "latency": 49,
+      "bandwidth": 50,
+      "packet_loss": 0.0173
+    },
+    {
+      "source": "R3",
+      "target": "R42",
+      "latency": 23,
+      "bandwidth": 500,
+      "packet_loss": 0.0099
+    },
+    {
+      "source": "R4",
+      "target": "R22",
+      "latency": 28,
+      "bandwidth": 1000,
+      "packet_loss": 0.0039
+    },
+    {
+      "source": "R4",
+      "target": "R9",
+      "latency": 34,
+      "bandwidth": 100,
+      "packet_loss": 0.0156
+    },
+    {
+      "source": "R4",
+      "target": "R48",
+      "latency": 9,
+      "bandwidth": 1000,
+      "packet_loss": 0.0122
+    },
+    {
+      "source": "R4",
+      "target": "R32",
+      "latency": 46,
+      "bandwidth": 500,
+      "packet_loss": 0.0024
+    },
+    {
+      "source": "R5",
+      "target": "R47",
+      "latency": 11,
+      "bandwidth": 1000,
+      "packet_loss": 0.0041
+    },
+    {
+      "source": "R5",
+      "target": "R43",
+      "latency": 43,
+      "bandwidth": 100,
+      "packet_loss": 0.0039
+    },
+    {
+      "source": "R5",
+      "target": "R9",
+      "latency": 21,
+      "bandwidth": 200,
+      "packet_loss": 0.0128
+    },
+    {
+      "source": "R6",
+      "target": "R43",
+      "latency": 11,
+      "bandwidth": 200,
+      "packet_loss": 0.0171
+    },
+    {
+      "source": "R6",
+      "target": "R45",
+      "latency": 17,
+      "bandwidth": 200,
+      "packet_loss": 0.0187
+    },
+    {
+      "source": "R7",
+      "target": "R24",
+      "latency": 35,
+      "bandwidth": 200,
+      "packet_loss": 0.0189
+    },
+    {
+      "source": "R7",
+      "target": "R18",
+      "latency": 21,
+      "bandwidth": 100,
+      "packet_loss": 0.0053
+    },
+    {
+      "source": "R8",
+      "target": "R6",
+      "latency": 12,
+      "bandwidth": 100,
+      "packet_loss": 0.0109
+    },
+    {
+      "source": "R8",
+      "target": "R7",
+      "latency": 41,
+      "bandwidth": 100,
+      "packet_loss": 0.014
+    },
+    {
+      "source": "R8",
+      "target": "R6",
+      "latency": 17,
+      "bandwidth": 1000,
+      "packet_loss": 0.0119
+    },
+    {
+      "source": "R8",
+      "target": "R4",
+      "latency": 37,
+      "bandwidth": 200,
+      "packet_loss": 0.0108
+    },
+    {
+      "source": "R9",
+      "target": "R48",
+      "latency": 35,
+      "bandwidth": 500,
+      "packet_loss": 0.0148
+    },
+    {
+      "source": "R9",
+      "target": "R12",
+      "latency": 38,
+      "bandwidth": 500,
+      "packet_loss": 0.0075
+    },
+    {
+      "source": "R9",
+      "target": "R3",
+      "latency": 16,
+      "bandwidth": 50,
+      "packet_loss": 0.0097
+    },
+    {
+      "source": "R10",
+      "target": "R48",
+      "latency": 50,
+      "bandwidth": 1000,
+      "packet_loss": 0.0074
+    },
+    {
+      "source": "R10",
+      "target": "R32",
+      "latency": 39,
+      "bandwidth": 1000,
+      "packet_loss": 0.014
+    },
+    {
+      "source": "R10",
+      "target": "R1",
+      "latency": 39,
+      "bandwidth": 50,
+      "packet_loss": 0.0055
+    },
+    {
+      "source": "R11",
+      "target": "R8",
+      "latency": 5,
+      "bandwidth": 50,
+      "packet_loss": 0.0036
+    },
+    {
+      "source": "R11",
+      "target": "R43",
+      "latency": 8,
+      "bandwidth": 1000,
+      "packet_loss": 0.0037
+    },
+    {
+      "source": "R11",
+      "target": "R36",
+      "latency": 36,
+      "bandwidth": 500,
+      "packet_loss": 0.0029
+    },
+    {
+      "source": "R11",
+      "target": "R3",
+      "latency": 6,
+      "bandwidth": 100,
+      "packet_loss": 0.0019
+    },
+    {
+      "source": "R12",
+      "target": "R17",
+      "latency": 7,
+      "bandwidth": 100,
+      "packet_loss": 0.0018
+    },
+    {
+      "source": "R12",
+      "target": "R42",
+      "latency": 43,
+      "bandwidth": 1000,
+      "packet_loss": 0.0044
+    },
+    {
+      "source": "R12",
+      "target": "R9",
+      "latency": 9,
+      "bandwidth": 50,
+      "packet_loss": 0.0161
+    },
+    {
+      "source": "R12",
+      "target": "R5",
+      "latency": 18,
+      "bandwidth": 200,
+      "packet_loss": 0.0047
+    },
+    {
+      "source": "R13",
+      "target": "R37",
+      "latency": 50,
+      "bandwidth": 500,
+      "packet_loss": 0.0112
+    },
+    {
+      "source": "R13",
+      "target": "R47",
+      "latency": 37,
+      "bandwidth": 50,
+      "packet_loss": 0.0142
+    },
+    {
+      "source": "R13",
+      "target": "R49",
+      "latency": 8,
+      "bandwidth": 100,
+      "packet_loss": 0.0171
+    },
+    {
+      "source": "R14",
+      "target": "R16",
+      "latency": 36,
+      "bandwidth": 500,
+      "packet_loss": 0.0141
+    },
+    {
+      "source": "R14",
+      "target": "R15",
+      "latency": 49,
+      "bandwidth": 100,
+      "packet_loss": 0.0034
+    },
+    {
+      "source": "R14",
+      "target": "R35",
+      "latency": 25,
+      "bandwidth": 1000,
+      "packet_loss": 0.0068
+    },
+    {
+      "source": "R15",
+      "target": "R37",
+      "latency": 12,
+      "bandwidth": 500,
+      "packet_loss": 0.003
+    },
+    {
+      "source": "R15",
+      "target": "R37",
+      "latency": 47,
+      "bandwidth": 200,
+      "packet_loss": 0.0089
+    },
+    {
+      "source": "R16",
+      "target": "R48",
+      "latency": 29,
+      "bandwidth": 1000,
+      "packet_loss": 0.0039
+    },
+    {
+      "source": "R16",
+      "target": "R12",
+      "latency": 38,
+      "bandwidth": 200,
+      "packet_loss": 0.0047
+    },
+    {
+      "source": "R17",
+      "target": "R42",
+      "latency": 42,
+      "bandwidth": 100,
+      "packet_loss": 0.0065
+    },
+    {
+      "source": "R17",
+      "target": "R15",
+      "latency": 14,
+      "bandwidth": 50,
+      "packet_loss": 0.0094
+    },
+    {
+      "source": "R17",
+      "target": "R35",
+      "latency": 32,
+      "bandwidth": 50,
+      "packet_loss": 0.0174
+    },
+    {
+      "source": "R17",
+      "target": "R32",
+      "latency": 16,
+      "bandwidth": 500,
+      "packet_loss": 0.0189
+    },
+    {
+      "source": "R18",
+      "target": "R30",
+      "latency": 27,
+      "bandwidth": 200,
+      "packet_loss": 0.0157
+    },
+    {
+      "source": "R18",
+      "target": "R34",
+      "latency": 42,
+      "bandwidth": 100,
+      "packet_loss": 0.0139
+    },
+    {
+      "source": "R18",
+      "target": "R45",
+      "latency": 44,
+      "bandwidth": 200,
+      "packet_loss": 0.0195
+    },
+    {
+      "source": "R19",
+      "target": "R4",
+      "latency": 6,
+      "bandwidth": 100,
+      "packet_loss": 0.0046
+    },
+    {
+      "source": "R19",
+      "target": "R33",
+      "latency": 44,
+      "bandwidth": 100,
+      "packet_loss": 0.0061
+    },
+    {
+      "source": "R19",
+      "target": "R4",
+      "latency": 33,
+      "bandwidth": 500,
+      "packet_loss": 0.0089
+    },
+    {
+      "source": "R19",
+      "target": "R34",
+      "latency": 30,
+      "bandwidth": 1000,
+      "packet_loss": 0.0195
+    },
+    {
+      "source": "R20",
+      "target": "R7",
+      "latency": 12,
+      "bandwidth": 200,
+      "packet_loss": 0.0152
+    },
+    {
+      "source": "R20",
+      "target": "R47",
+      "latency": 36,
+      "bandwidth": 1000,
+      "packet_loss": 0.0131
+    },
+    {
+      "source": "R20",
+      "target": "R30",
+      "latency": 45,
+      "bandwidth": 100,
+      "packet_loss": 0.0176
+    },
+    {
+      "source": "R20",
+      "target": "R33",
+      "latency": 23,
+      "bandwidth": 50,
+      "packet_loss": 0.0033
+    },
+    {
+      "source": "R21",
+      "target": "R2",
+      "latency": 33,
+      "bandwidth": 500,
+      "packet_loss": 0.0071
+    },
+    {
+      "source": "R21",
+      "target": "R9",
+      "latency": 17,
+      "bandwidth": 100,
+      "packet_loss": 0.006
+    },
+    {
+      "source": "R21",
+      "target": "R34",
+      "latency": 25,
+      "bandwidth": 50,
+      "packet_loss": 0.0085
+    },
+    {
+      "source": "R22",
+      "target": "R5",
+      "latency": 31,
+      "bandwidth": 50,
+      "packet_loss": 0.0047
+    },
+    {
+      "source": "R22",
+      "target": "R26",
+      "latency": 5,
+      "bandwidth": 1000,
+      "packet_loss": 0.0154
+    },
+    {
+      "source": "R23",
+      "target": "R17",
+      "latency": 10,
+      "bandwidth": 100,
+      "packet_loss": 0.0042
+    },
+    {
+      "source": "R23",
+      "target": "R27",
+      "latency": 47,
+      "bandwidth": 100,
+      "packet_loss": 0.0068
+    },
+    {
+      "source": "R24",
+      "target": "R5",
+      "latency": 37,
+      "bandwidth": 50,
+      "packet_loss": 0.0064
+    },
+    {
+      "source": "R24",
+      "target": "R44",
+      "latency": 20,
+      "bandwidth": 100,
+      "packet_loss": 0.0187
+    },
+    {
+      "source": "R24",
+      "target": "R7",
+      "latency": 25,
+      "bandwidth": 200,
+      "packet_loss": 0.0091
+    },
+    {
+      "source": "R25",
+      "target": "R39",
+      "latency": 6,
+      "bandwidth": 100,
+      "packet_loss": 0.012
+    },
+    {
+      "source": "R25",
+      "target": "R8",
+      "latency": 14,
+      "bandwidth": 500,
+      "packet_loss": 0.0117
+    },
+    {
+      "source": "R25",
+      "target": "R38",
+      "latency": 9,
+      "bandwidth": 500,
+      "packet_loss": 0.0067
+    },
+    {
+      "source": "R26",
+      "target": "R1",
+      "latency": 13,
+      "bandwidth": 50,
+      "packet_loss": 0.0097
+    },
+    {
+      "source": "R26",
+      "target": "R43",
+      "latency": 50,
+      "bandwidth": 200,
+      "packet_loss": 0.0192
+    },
+    {
+      "source": "R26",
+      "target": "R3",
+      "latency": 10,
+      "bandwidth": 500,
+      "packet_loss": 0.0145
+    },
+    {
+      "source": "R26",
+      "target": "R32",
+      "latency": 26,
+      "bandwidth": 50,
+      "packet_loss": 0.0064
+    },
+    {
+      "source": "R27",
+      "target": "R3",
+      "latency": 47,
+      "bandwidth": 100,
+      "packet_loss": 0.0119
+    },
+    {
+      "source": "R27",
+      "target": "R30",
+      "latency": 44,
+      "bandwidth": 1000,
+      "packet_loss": 0.0154
+    },
+    {
+      "source": "R28",
+      "target": "R50",
+      "latency": 48,
+      "bandwidth": 200,
+      "packet_loss": 0.0087
+    },
+    {
+      "source": "R28",
+      "target": "R31",
+      "latency": 32,
+      "bandwidth": 50,
+      "packet_loss": 0.0095
+    },
+    {
+      "source": "R29",
+      "target": "R38",
+      "latency": 41,
+      "bandwidth": 200,
+      "packet_loss": 0.0114
+    },
+    {
+      "source": "R29",
+      "target": "R47",
+      "latency": 46,
+      "bandwidth": 1000,
+      "packet_loss": 0.0182
+    },
+    {
+      "source": "R29",
+      "target": "R16",
+      "latency": 13,
+      "bandwidth": 200,
+      "packet_loss": 0.0048
+    },
+    {
+      "source": "R29",
+      "target": "R26",
+      "latency": 45,
+      "bandwidth": 500,
+      "packet_loss": 0.0185
+    },
+    {
+      "source": "R30",
+      "target": "R27",
+      "latency": 37,
+      "bandwidth": 50,
+      "packet_loss": 0.0044
+    },
+    {
+      "source": "R30",
+      "target": "R9",
+      "latency": 11,
+      "bandwidth": 100,
+      "packet_loss": 0.0083
+    },
+    {
+      "source": "R30",
+      "target": "R4",
+      "latency": 22,
+      "bandwidth": 1000,
+      "packet_loss": 0.0165
+    },
+    {
+      "source": "R30",
+      "target": "R45",
+      "latency": 31,
+      "bandwidth": 500,
+      "packet_loss": 0.0187
+    },
+    {
+      "source": "R31",
+      "target": "R45",
+      "latency": 37,
+      "bandwidth": 50,
+      "packet_loss": 0.0044
+    },
+    {
+      "source": "R31",
+      "target": "R7",
+      "latency": 29,
+      "bandwidth": 1000,
+      "packet_loss": 0.0078
+    },
+    {
+      "source": "R31",
+      "target": "R46",
+      "latency": 50,
+      "bandwidth": 1000,
+      "packet_loss": 0.014
+    },
+    {
+      "source": "R32",
+      "target": "R25",
+      "latency": 40,
+      "bandwidth": 100,
+      "packet_loss": 0.0141
+    },
+    {
+      "source": "R32",
+      "target": "R39",
+      "latency": 40,
+      "bandwidth": 50,
+      "packet_loss": 0.0113
+    },
+    {
+      "source": "R33",
+      "target": "R13",
+      "latency": 9,
+      "bandwidth": 100,
+      "packet_loss": 0.0143
+    },
+    {
+      "source": "R33",
+      "target": "R20",
+      "latency": 40,
+      "bandwidth": 500,
+      "packet_loss": 0.0123
+    },
+    {
+      "source": "R33",
+      "target": "R2",
+      "latency": 43,
+      "bandwidth": 100,
+      "packet_loss": 0.008
+    },
+    {
+      "source": "R34",
+      "target": "R36",
+      "latency": 39,
+      "bandwidth": 200,
+      "packet_loss": 0.0044
+    },
+    {
+      "source": "R34",
+      "target": "R33",
+      "latency": 43,
+      "bandwidth": 100,
+      "packet_loss": 0.007
+    },
+    {
+      "source": "R34",
+      "target": "R37",
+      "latency": 34,
+      "bandwidth": 200,
+      "packet_loss": 0.0098
+    },
+    {
+      "source": "R35",
+      "target": "R45",
+      "latency": 41,
+      "bandwidth": 100,
+      "packet_loss": 0.0193
+    },
+    {
+      "source": "R35",
+      "target": "R39",
+      "latency": 28,
+      "bandwidth": 500,
+      "packet_loss": 0.0034
+    },
+    {
+      "source": "R36",
+      "target": "R39",
+      "latency": 27,
+      "bandwidth": 1000,
+      "packet_loss": 0.0078
+    },
+    {
+      "source": "R36",
+      "target": "R43",
+      "latency": 22,
+      "bandwidth": 50,
+      "packet_loss": 0.0032
+    },
+    {
+      "source": "R37",
+      "target": "R25",
+      "latency": 44,
+      "bandwidth": 1000,
+      "packet_loss": 0.0099
+    },
+    {
+      "source": "R37",
+      "target": "R26",
+      "latency": 37,
+      "bandwidth": 500,
+      "packet_loss": 0.001
+    },
+    {
+      "source": "R37",
+      "target": "R5",
+      "latency": 12,
+      "bandwidth": 500,
+      "packet_loss": 0.004
+    },
+    {
+      "source": "R38",
+      "target": "R20",
+      "latency": 44,
+      "bandwidth": 50,
+      "packet_loss": 0.0117
+    },
+    {
+      "source": "R38",
+      "target": "R29",
+      "latency": 36,
+      "bandwidth": 500,
+      "packet_loss": 0.0053
+    },
+    {
+      "source": "R38",
+      "target": "R30",
+      "latency": 46,
+      "bandwidth": 50,
+      "packet_loss": 0.0044
+    },
+    {
+      "source": "R38",
+      "target": "R46",
+      "latency": 23,
+      "bandwidth": 50,
+      "packet_loss": 0.0034
+    },
+    {
+      "source": "R39",
+      "target": "R15",
+      "latency": 22,
+      "bandwidth": 200,
+      "packet_loss": 0.0149
+    },
+    {
+      "source": "R39",
+      "target": "R22",
+      "latency": 45,
+      "bandwidth": 50,
+      "packet_loss": 0.0015
+    },
+    {
+      "source": "R40",
+      "target": "R29",
+      "latency": 28,
+      "bandwidth": 50,
+      "packet_loss": 0.0126
+    },
+    {
+      "source": "R40",
+      "target": "R21",
+      "latency": 22,
+      "bandwidth": 50,
+      "packet_loss": 0.0079
+    },
+    {
+      "source": "R40",
+      "target": "R44",
+      "latency": 32,
+      "bandwidth": 200,
+      "packet_loss": 0.002
+    },
+    {
+      "source": "R40",
+      "target": "R18",
+      "latency": 46,
+      "bandwidth": 100,
+      "packet_loss": 0.0108
+    },
+    {
+      "source": "R41",
+      "target": "R25",
+      "latency": 13,
+      "bandwidth": 1000,
+      "packet_loss": 0.0116
+    },
+    {
+      "source": "R41",
+      "target": "R37",
+      "latency": 27,
+      "bandwidth": 500,
+      "packet_loss": 0.0136
+    },
+    {
+      "source": "R41",
+      "target": "R33",
+      "latency": 31,
+      "bandwidth": 50,
+      "packet_loss": 0.0143
+    },
+    {
+      "source": "R42",
+      "target": "R1",
+      "latency": 23,
+      "bandwidth": 500,
+      "packet_loss": 0.0123
+    },
+    {
+      "source": "R42",
+      "target": "R6",
+      "latency": 13,
+      "bandwidth": 500,
+      "packet_loss": 0.0195
+    },
+    {
+      "source": "R43",
+      "target": "R18",
+      "latency": 31,
+      "bandwidth": 1000,
+      "packet_loss": 0.0124
+    },
+    {
+      "source": "R43",
+      "target": "R24",
+      "latency": 43,
+      "bandwidth": 50,
+      "packet_loss": 0.0032
+    },
+    {
+      "source": "R43",
+      "target": "R41",
+      "latency": 20,
+      "bandwidth": 500,
+      "packet_loss": 0.0137
+    },
+    {
+      "source": "R44",
+      "target": "R25",
+      "latency": 47,
+      "bandwidth": 50,
+      "packet_loss": 0.014
+    },
+    {
+      "source": "R44",
+      "target": "R17",
+      "latency": 9,
+      "bandwidth": 500,
+      "packet_loss": 0.0076
+    },
+    {
+      "source": "R45",
+      "target": "R14",
+      "latency": 31,
+      "bandwidth": 1000,
+      "packet_loss": 0.0158
+    },
+    {
+      "source": "R45",
+      "target": "R23",
+      "latency": 15,
+      "bandwidth": 1000,
+      "packet_loss": 0.0062
+    },
+    {
+      "source": "R46",
+      "target": "R17",
+      "latency": 29,
+      "bandwidth": 500,
+      "packet_loss": 0.0136
+    },
+    {
+      "source": "R46",
+      "target": "R4",
+      "latency": 36,
+      "bandwidth": 1000,
+      "packet_loss": 0.0049
+    },
+    {
+      "source": "R46",
+      "target": "R30",
+      "latency": 38,
+      "bandwidth": 100,
+      "packet_loss": 0.0118
+    },
+    {
+      "source": "R46",
+      "target": "R41",
+      "latency": 45,
+      "bandwidth": 100,
+      "packet_loss": 0.0081
+    },
+    {
+      "source": "R47",
+      "target": "R28",
+      "latency": 17,
+      "bandwidth": 500,
+      "packet_loss": 0.014
+    },
+    {
+      "source": "R47",
+      "target": "R23",
+      "latency": 12,
+      "bandwidth": 100,
+      "packet_loss": 0.011
+    },
+    {
+      "source": "R47",
+      "target": "R31",
+      "latency": 10,
+      "bandwidth": 1000,
+      "packet_loss": 0.0061
+    },
+    {
+      "source": "R48",
+      "target": "R2",
+      "latency": 42,
+      "bandwidth": 50,
+      "packet_loss": 0.0103
+    },
+    {
+      "source": "R48",
+      "target": "R44",
+      "latency": 44,
+      "bandwidth": 1000,
+      "packet_loss": 0.0196
+    },
+    {
+      "source": "R48",
+      "target": "R4",
+      "latency": 46,
+      "bandwidth": 500,
+      "packet_loss": 0.0147
+    },
+    {
+      "source": "R49",
+      "target": "R13",
+      "latency": 13,
+      "bandwidth": 100,
+      "packet_loss": 0.0149
+    },
+    {
+      "source": "R49",
+      "target": "R24",
+      "latency": 40,
+      "bandwidth": 100,
+      "packet_loss": 0.0038
+    },
+    {
+      "source": "R49",
+      "target": "R39",
+      "latency": 24,
+      "bandwidth": 1000,
+      "packet_loss": 0.0072
+    },
+    {
+      "source": "R49",
+      "target": "R11",
+      "latency": 50,
+      "bandwidth": 200,
+      "packet_loss": 0.0098
+    },
+    {
+      "source": "R50",
+      "target": "R31",
+      "latency": 38,
+      "bandwidth": 500,
+      "packet_loss": 0.0012
+    },
+    {
+      "source": "R50",
+      "target": "R32",
+      "latency": 21,
+      "bandwidth": 50,
+      "packet_loss": 0.0158
+    }
+  ]
+}
