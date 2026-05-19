@@ -1,6 +1,6 @@
 import json
 from collections import defaultdict
-from network_utils import compute_edge_cost
+from src.network_utils import compute_edge_cost
 
 
 class Graph:
@@ -55,6 +55,33 @@ class Graph:
                     "packet_loss": edge["packet_loss"]
                 }
             )
+
+    def update_edge_load(self, source, target, load):
+        for edge in self.edges:
+
+            # find matching edge
+            if (
+                (edge["source"] == source and edge["target"] == target)
+                or
+                (edge["source"] == target and edge["target"] == source)
+            ):
+
+                # update congestion/load
+                edge["attributes"]["current_load"] = load
+
+                # recompute edge cost
+                edge["cost"] = compute_edge_cost(edge["attributes"])
+
+        # rebuild adjacency list with updated costs
+        self.adj_list = defaultdict(list)
+
+        for edge in self.edges:
+            s = edge["source"]
+            t = edge["target"]
+            c = edge["cost"]
+
+            self.adj_list[s].append((t, c))
+            self.adj_list[t].append((s, c))
 
     def print_graph(self):
         for node in self.adj_list:
