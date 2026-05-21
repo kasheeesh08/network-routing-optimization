@@ -56,6 +56,7 @@ class Graph:
                 }
             )
 
+    """
     def update_edge_load(self, source, target, load):
         for edge in self.edges:
 
@@ -73,6 +74,58 @@ class Graph:
                 edge["cost"] = compute_edge_cost(edge["attributes"])
 
         # rebuild adjacency list with updated costs
+        self.adj_list = defaultdict(list)
+
+        for edge in self.edges:
+            s = edge["source"]
+            t = edge["target"]
+            c = edge["cost"]
+
+            self.adj_list[s].append((t, c))
+            self.adj_list[t].append((s, c))
+    """
+
+    def update_edge_load(self, source, target, load):
+        for edge in self.edges:
+            if (
+                (edge["source"] == source and edge["target"] == target)
+                or
+                (edge["source"] == target and edge["target"] == source)
+                ):
+                
+                # get current load (default = 0)
+                current = edge["attributes"].get("current_load", 0)
+
+                # accumulate load instead of overwrite
+                new_load = current + load
+                edge["attributes"]["current_load"] = new_load
+
+                # recompute cost
+                edge["cost"] = compute_edge_cost(edge["attributes"])
+
+    # rebuild adjacency list
+        self.adj_list = defaultdict(list)
+
+        for edge in self.edges:
+            s = edge["source"]
+            t = edge["target"]
+            c = edge["cost"]
+
+            self.adj_list[s].append((t, c))
+            self.adj_list[t].append((s, c))        
+
+    def decay_load(self, decay_factor=0.9):
+        for edge in self.edges:
+            current = edge["attributes"].get("current_load", 0)
+
+            # reduce load gradually
+            new_load = current * decay_factor
+            edge["attributes"]["current_load"] = new_load
+
+            # recompute cost
+            edge["cost"] = compute_edge_cost(edge["attributes"])
+
+        # rebuild adjacency list
         self.adj_list = defaultdict(list)
 
         for edge in self.edges:

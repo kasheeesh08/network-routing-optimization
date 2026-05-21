@@ -40,6 +40,9 @@ def simulate_traffic(graph, num_packets=20):
             graph.update_edge_load(u, v, load)
 
             print(f"Updated load on ({u}, {v}) = {load}")
-
+        
+        # NEW: decay after each packet
+        graph.decay_load(decay_factor=0.9)
+        
         count += 1
         packet_id += 1
