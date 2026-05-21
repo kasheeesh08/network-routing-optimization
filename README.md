@@ -148,3 +148,18 @@ Dynamic congestion-aware routing:
 - Adapts to changing traffic conditions
 
 This demonstrates how incorporating real-time metrics into routing decisions leads to significantly better performance than traditional static approaches.
+
+## ▶️ How to Run
+
+### 1. Clone repo
+
+```bash
+git clone https://github.com/kasheeesh08/network-routing-optimization.git
+cd network-routing-optimization
+```
+
+### 2. Run simulation
+
+```bash
+python -m src.experiment
+```
