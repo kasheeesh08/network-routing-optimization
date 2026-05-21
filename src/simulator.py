@@ -2,7 +2,7 @@ import random
 from algorithms.dijkstra import dijkstra, get_path
 
 
-def simulate_traffic(graph, num_packets=20):
+def simulate_traffic(graph, num_packets=20,dynamic=True):
     nodes = list(graph.nodes.keys())
 
     count = 0
@@ -39,12 +39,14 @@ def simulate_traffic(graph, num_packets=20):
             v = path[i + 1]
 
             load = random.randint(10, 50)
-            graph.update_edge_load(u, v, load)
+            if dynamic :
+                graph.update_edge_load(u, v, load)
 
             print(f"Updated load on ({u}, {v}) = {load}")
 
         # apply decay
-        graph.decay_load(decay_factor=0.9)
+        if dynamic:
+            graph.decay_load(decay_factor=0.9)
 
         count += 1
         packet_id += 1
