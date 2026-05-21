@@ -160,9 +160,10 @@ cd network-routing-optimization
 
 ### 2. Run simulation
 
-## 🏗️ Workflow Diagram
-
-![Workflow Diagram](network_optimization_flowchart.png)
 ```bash
 python -m src.experiment
 ```
+
+## 🏗️ Workflow Diagram
+
+![Workflow Diagram](network_optimization_flowchart.png)
