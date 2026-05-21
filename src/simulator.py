@@ -1,5 +1,4 @@
 import random
-random.seed(42)
 from algorithms.dijkstra import dijkstra, get_path
 
 
