@@ -167,3 +167,8 @@ python -m src.experiment
 ## 🏗️ Workflow Diagram
 
 ![Workflow Diagram](network_optimization_flowchart.png)
+
+
+## Result
+
+![Result](result.png)
