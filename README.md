@@ -157,11 +157,12 @@ This demonstrates how incorporating real-time metrics into routing decisions lea
 git clone https://github.com/kasheeesh08/network-routing-optimization.git
 cd network-routing-optimization
 ```
+
+### 2. Run simulation
+
 ## 🏗️ Workflow Diagram
 
 ![Workflow Diagram](network_optimization_flowchart.png)
-### 2. Run simulation
-
 ```bash
 python -m src.experiment
 ```
